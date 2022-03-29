@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="conversor">
+        <center><h1>conversor de moedas</h1></center> <br><br>
+        <label>digite o valor que deseja converter</label><br><br><br>
+        <input type="text" placeholder="digite o valor" id="valorinicial">
+        <br><br><br>
+        <button onclick="dolar()">US$ dolar</button>
+        <button onclick="euro()">€ euro</button>
+        <button onclick="libra()">£ libra</button>
+        <button onclick="bitcoin()">฿ bitcoin</button>
+        <br><br>
+        <h3 id="valor_final">0</h3>
+    </div>
+</body>

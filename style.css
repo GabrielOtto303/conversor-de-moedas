@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+
+.conversor{
+    background-color: rgb(1, 79, 1);
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 60px;
+    box-shadow: 2px 2px 6px rgb(63, 63, 63);
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(36, 36, 36);
+    
+}
+
+input{
+    color: white;
+    background-color: rgba(132, 143, 134, 0.282);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    box-shadow: 1px 1px 5px rgb(33, 33, 33);
+}
+
+h3{
+    color: white;
+    background-color:rgba(155, 155, 155, 0.405);
+    padding: 5px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(33, 33, 33);
+}
+
+h1{
+    margin: auto;
+}
